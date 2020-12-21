@@ -37,7 +37,7 @@ if __name__ == '__main__':
         #print(len(features_mfcc))
 
         # Print the parameters for MFCC
-        '''print('\nMFCC:\nNumber of windows =', features_mfcc.shape[0])
+        print('\nMFCC:\nNumber of windows =', features_mfcc.shape[0])
         print('Length of each feature =', features_mfcc.shape[1])
 
         # Plot the features
@@ -57,4 +57,4 @@ if __name__ == '__main__':
         plt.matshow(features_fb)
         plt.title('Filter bank')
 
-        plt.show()'''
+        plt.show()
