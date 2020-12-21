@@ -6,7 +6,7 @@ These features are then used into various classification algorithms to classify 
 
 MFCC_stages shows different phases of converting audio into MFCC.
 
-mfcc_full.csv contains mfcc features from https://archive.ics.uci.edu/ml/datasets/Speaker+Accent+Recognition# dataset, which contains 329 speakers with 6 different accents. 
+mfcc_full.csv contains mfcc features from UCI Machine Learning dataset, which contains 329 speakers with 6 different accents. 
 
 SVM.py takes in this file and divided into training and test data which is then trained in SVM model. The model then predicts the accent of the test data set. To get the mean accuracy, this is done 100 times by random choice tuples chosen for test an train.
 
