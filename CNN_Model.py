@@ -196,7 +196,7 @@ def training(X_train,y_train,X_validation,y_validation, batch_size=128): #64
 if __name__ == '__main__':
     '''
         Console command example:
-        python trainmodel.py bio_metadata.csv model50
+        python CNN_Model.py speakers_all.csv model50
         '''
 
     # Load arguments
